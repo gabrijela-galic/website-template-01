@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* utilities / common */
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered.img {
+    margin: 20px 0;
+}
+
+.centered-image {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.wrap {
+    background: white;
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+
+/*HEADER*/
+.header {
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+} 
+
+.logo img {
+    height: 150px;
+    width: 160px;
+}
+  
+.navbar-search-wrap {
+    float: right;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.navbar li {
+    text-transform: uppercase;
+    padding-right: 50px;
+    font-family: 'Bellefair', serif;
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(128, 128, 0, 0.7);
+    float: left;
+    transition: color .5s ease;
+}
+
+li a:hover {
+    color: lightgray;
+}
+
+a {
+    font-size: 20px;
+}
+
+
+
+/*MAIN*/
+.mini.nav {
+    padding-top: 15px;
+}
+
+h5 a {
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(128, 128, 0, 0.7);
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.lifestyle {
+    padding-right: 5px;
+}
+
+.gastro {
+    padding-left: 5px;
+}
+
+.recipe {
+    background-color: white;
+    width: 80%;
+    float: left;
+    padding-top: 20px;
+}
+
+.cok-torta img  {
+    width: 500px;
+    height: 400px;
+}
+
+p {
+    text-align: justify;
+    padding: 20px 40px;
+    line-height: 2em;
+}
+
+.sidebar {
+    background-color: lightgoldenrodyellow;
+    width: 20%;
+    float: left;
+    padding: 20% 0;
+}
+
+.widget {
+    margin-bottom: 40px;
+}
+
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+.article {
+    margin-bottom: 30px;
+}
+
+.article:last-child {
+    margin-bottom: 0;
+}
+
+.article-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: rgba(128, 128, 0, 0.7);
+    padding: 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.footer-nav li {
+    float: left;
+    margin-right: 20px;
+    transition: background-color .5s ease; 
+}
+
+.footer a {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+}
+ 
+.footer-nav li:hover {
+    background-color: #ddd;
+}
+
+.copyright {
+    color: lightgoldenrodyellow;
+    margin-top: 40px;
+    font-family: 'Bellefair', serif;
+}
